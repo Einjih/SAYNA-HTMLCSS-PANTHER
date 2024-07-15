@@ -1,3 +1,13 @@
+:root{
+    --white-color: #FFFFFF;
+    --pink-color0: #F2CEF2;
+    --pink-color1: #9E91B7;
+    --pink-color2: #DF99F2;
+    --blue-color0: #3D2DA6;
+    --blue-color1: #07338C;
+    --blue-color2: #021740;
+}
+
 
 body{
 background-image: url(./Illustrations-Logo/All_pages/arrière_plan.png);
