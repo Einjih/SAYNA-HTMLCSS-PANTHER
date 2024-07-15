@@ -8,7 +8,35 @@
     --blue-color2: #021740;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 20px;
+    
+
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+   
+
+}
+
+nav ul a{
+    color: var(--white-color);
+    font-size: 30px;
+    font-weight: 500;
+    
+    
+}
 body{
 background-image: url(./Illustrations-Logo/All_pages/arrière_plan.png);
 background-size: cover;
