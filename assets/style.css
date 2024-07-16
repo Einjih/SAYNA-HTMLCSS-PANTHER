@@ -23,11 +23,14 @@
 }
 h1{
     font-family: 'panthera';
+    color: var(--pink-color1);
 }
 
 h2{
     font-family: 'beyno';
+    color: var(--pink-color1);
 }
+/*Style de la première section black-panther*/ 
 
 nav{
     display: flex;
@@ -39,12 +42,16 @@ nav{
 }
 ul{
     display: flex;
-    list-style: none;
-    justify-content: space-between;
+    gap: 100px;  
+    font-family: 'beyno';
    
 
 }
 
+.type-menu ul li a {
+    font-size: 20px;
+    text-decoration: none; /* Ajustez la taille des caractères selon vos besoins */
+}
 nav ul a{
     color: var(--white-color);
     font-size: 30px;
@@ -56,4 +63,83 @@ body{
 background-image: url(./Illustrations-Logo/All_pages/arrière_plan.png);
 background-size: cover;
 
+}
+
+#black_panther .description{
+    display: flex;
+    margin-left: 50px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    margin-left: 100px;
+   
+}
+
+.text-description{
+    color: #FFFFFF;
+    font-family: 'Cantarell';
+    font-size: 16px;
+}
+#black_panther .contenu-text a{
+    color: #FFFFFF;
+    font-family: 'Cantarell';
+    font-size: 16px;
+}
+
+#black_panther .contenu-text{
+    margin-top: 200px;
+   
+}
+#black_panther .titre{
+    font-size: 50px;
+    font-weight: bold;
+}
+#black_panther .sous-titre{
+    margin-top: 20px;
+}
+#black_panther .sous-titre{
+    margin-bottom: 20px;
+}
+#black_panther .text-description{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+/*Style de la deuxième section acteurs*/
+#acteurs .acteur{
+    display: flex;
+    justify-content: space-between;
+    transition: transform 0.3s ease;
+    margin-left: 5%;
+    background-color: var(--blue-color2);
+    height: 342px;
+    
+    
+   
+    
+}
+
+
+.acteur1{
+    position: relative;
+    top: -60px;
+    margin-left: 40px;
+}
+
+
+#acteurs .text-description{
+    
+    color: #FFFFFF;
+    font-family: 'Cantarell';
+    font-size: 16px;
+    
+}
+#acteurs .description{
+    margin: 50px 30px;
+}
+#acteurs .acteur a{
+    color: #FFFFFF;
+    font-family: 'Cantarell';
+    font-size: 16px;
 }
