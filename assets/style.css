@@ -59,6 +59,9 @@ nav ul a{
     
     
 }
+ul{
+    list-style-type: none;
+}
 body{
 background-image: url(./Illustrations-Logo/All_pages/arrière_plan.png);
 background-size: cover;
