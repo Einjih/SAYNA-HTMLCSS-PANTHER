@@ -14,6 +14,9 @@
     --blue-color0: #3D2DA6;
     --blue-color1: #07338C;
     --blue-color2: #021740;
+    --whitet-color: hsla(0, 0%, 100%, 0.4);
+    --whited-color: hsla(0, 0%, 100%, 0.9);
+    
 }
 
 *{
@@ -243,4 +246,48 @@ background-size: cover;
 }
 #histoire .identite2{
     margin-top: 100px;
+}
+
+/*Style de la quatrième section contact*/
+#contact{
+    background-image: url(./Illustrations-Logo/Accueil/Pantherhome7.png);
+}
+#contact .form{
+    width: 45%;
+    height: 550px;
+    margin: 0 auto;
+    background:  linear-gradient(
+    180deg,var(--whited-color),var(--whitet-color));
+    border-radius: 100px;
+    
+}
+#contact h2{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+#contact p{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+#contact .form input[type='email'],input[type='text'], textarea{
+    display: block;
+    border-top: none;
+    
+    width: 520px;
+    height: 56px;
+    border: 2px solid darkgray;
+    border-radius: 36px;
+    background-color: transparent;
+    padding: 10px 0;
+    margin: 30px 200px;
+}
+::placeholder{
+    font-size: 15px;
+}
+#contact .form input[type='submit']{
+    display: block;
+    margin: 30px 400px
 }
