@@ -261,7 +261,7 @@ background-size: cover;
     background:  linear-gradient(
     180deg,var(--whited-color),var(--whitet-color));
     border-radius: 100px;
-    margin-bottom: 30px;
+    margin-bottom: 180px;
     
 }
 
@@ -322,3 +322,71 @@ background-size: cover;
     box-shadow: 0 0 20px #021740;
     ;
 }
+
+/*Style de la cinquième section footer*/
+#footer{
+    background-image: url(./Illustrations-Logo/All_pages/back_footer.png);
+}
+#footer .container{
+    display: flex;
+    padding-top: 150px;
+    margin-left: 350px;
+    padding-bottom: 70px;
+}
+#footer .petit{
+    position: relative;
+    top: -200px;
+    left: -250px
+}
+
+#footer .sociaux{
+    margin-left: 500px;
+    
+}
+#footer .sociaux a img {
+    margin-right: 30px; /* Ajustez la valeur selon vos besoins */
+}
+#footer .retrouvez{
+    margin-left: 540px;
+    color: white;
+    font-size: 22px;
+    letter-spacing: 28%;
+    margin-bottom: 30px;
+}
+#footer .copyright{
+    margin-top: 200px;
+    color: #FFFFFF;
+    font-family: 'Cantarell';
+    display: flex;
+}
+#footer .texte{
+    color: white;
+    text-transform: capitalize;
+}
+#footer .copyright ul li{
+    font-family: 'Cantarell';
+}
+#footer .puce::before {
+    content: '•'; /* Symbole de la puce */
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 40px; /* Taille de la puce */
+    line-height: 0.6; /* Assurez-vous que la puce est bien alignée avec le texte */
+    color: var(--pink-color0); /* Couleur de la puce */
+}
+#footer .puce {
+    position: relative;
+    padding-left: 10px; /* Espace pour la puce */
+}
+#footer .pages{
+    font-family: 'Cantarell';
+    font-size: 22px;
+    letter-spacing: 28%;
+    margin-bottom: 30px;
+}
+#footer .apropos{
+    font-family: 'Cantarell';
+    margin-bottom: 15px;
+}
+
