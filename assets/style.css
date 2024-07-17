@@ -146,3 +146,101 @@ background-size: cover;
     font-family: 'Cantarell';
     font-size: 16px;
 }
+
+
+/*Style de la troisième section histoire*/
+#histoire {
+    margin-top: 200px;
+} 
+.global{
+    display: flex;
+}
+#histoire .textuel p{
+    color: #FFFFFF;
+    font-size: 15px;
+    text-align: justify;
+}
+#histoire .textuel{
+    width: 90%;
+    padding: 20px;
+    margin-left: 5%;
+    margin-bottom: 20px;
+
+}
+#histoire .contenu-histoire{
+    font-family: 'Cantarell';
+    margin-bottom: 20px;
+
+}
+#histoire .citation{
+    font-family: 'Cantarell';
+    margin-bottom: 20px;
+
+}
+
+#histoire .sous-titre{
+    margin-bottom: 20px;
+
+}
+
+#histoire .imagedesc{
+    margin-left: 150px;
+
+}
+
+#histoire .identite1{
+   background:  linear-gradient(
+    360deg,var(--white-color),var(--pink-color1));
+    width: 450px;
+    border-radius: 10px;
+    margin-top: 250px;
+    height: 800px;
+
+}
+
+#histoire .description, .identite1 img{
+    margin-left: 25px;
+    position: relative;
+    top: -250px;
+}
+#histoire .description{
+    text-align: center;
+    margin: 20px 50px;
+}
+#histoire .description {
+    font-family: 'Cantarell';
+    font-size: 16px;
+}
+#histoire .apropos{
+    text-align: justify;
+}
+#histoire .bold{
+    font-weight: bold;
+}
+#histoire .titre{
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+#histoire .btn a{
+    text-decoration: none;
+    justify-content: space-between;
+    background-color: var(--blue-color1);
+    color: var(--white-color);
+    border-radius: 5px;
+    padding: 8px;
+    margin: 0 4px;
+   
+}
+#histoire .btn{
+    margin-bottom: 20px;
+}
+#histoire .min{
+    font-size: 10px;
+}
+#histoire .apropos .desc{
+    margin-bottom: 10px;
+}
+#histoire .identite2{
+    margin-top: 100px;
+}
