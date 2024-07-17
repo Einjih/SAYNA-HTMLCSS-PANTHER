@@ -344,7 +344,7 @@ background-size: cover;
     
 }
 #footer .sociaux a img {
-    margin-right: 30px; /* Ajustez la valeur selon vos besoins */
+    margin-right: 30px; 
 }
 #footer .retrouvez{
     margin-left: 540px;
@@ -388,5 +388,37 @@ background-size: cover;
 #footer .apropos{
     font-family: 'Cantarell';
     margin-bottom: 15px;
+}
+
+/* Band*/
+.left-band {
+    top: 0;
+    bottom: 0;
+    left: 50px;
+    width: 3px;
+    background-color: var(--pink-color1);
+    position: absolute;
+    height: 520px;
+    
+}
+.right-band {
+    top: 0;
+    bottom: 0;
+    left: 70px;
+    width: 3px;
+    background-color: var(--pink-color1);
+    position: absolute;
+    height: 380px;
+    
+}
+.img-band{
+    margin-top: 410px;
+    left: -10px;
+    top: -30px;
+    position: absolute;
+}
+.img-band img{
+    margin-top: 10px;
+    
 }
 
