@@ -71,15 +71,16 @@ background-size: cover;
 
 }
 
-#black_panther .description{
-    display: flex;
-    margin-left: 50px;
-}
+
 .container{
     width: 90%;
     margin: 0 auto;
     margin-left: 100px;
    
+}
+#black_panther .description{
+    display: flex;
+    margin-left: 50px;
 }
 
 .text-description{
