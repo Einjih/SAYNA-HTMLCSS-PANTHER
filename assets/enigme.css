@@ -83,4 +83,192 @@ body{
 #defi .img img{
     width: 1000px;
     top: -200px;
+    height: 700px;
+}
+#defi .text{
+    margin-top: 150px;
+    
+}
+#defi .titre{
+    font-size: 40px;
+}
+
+#defi .definition p{
+    position: relative;
+    top: -320px;
+    color: white;
+    width: 50%;
+    margin-left: 140px;
+    font-family: 'Cantarell';
+    font-size: 14px;
+    text-align: justify;
+}
+#defi .ligne{
+    position: relative;
+    top: -170px;
+}
+
+/** Design de la deuxième partie enigme */
+#enigme .wakanda{
+    font-family: 'Wakanda Forever', sans-serif;
+    font-size: 30px;
+    width: 50%;
+    letter-spacing: 6px; 
+            margin-bottom: 30px;
+}
+#enigme .container{
+    margin-left: 10%
+}
+#enigme .contenu-enigme{
+    display: flex;
+    margin-top: 50px;
+}
+#enigme p{
+    color: white;
+}
+#enigme .text p{
+    margin-bottom: 30px;
+}
+#enigme .after-equal{
+    font-family: 'Wakanda Forever';
+}
+#enigme .before-equal{
+    font-family: 'Cantarell';
+}
+#enigme .premier, .deuxieme, .troisieme{
+    
+    background: linear-gradient(to bottom, var(--white-color) 60%, rgb(2, 203, 253) 40%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+        
+}
+#enigme .avant-transcription{
+    font-family: 'Cantarell';
+}
+#enigme .question{
+    font-family: 'Cantarell';
+}
+#enigme .form input[type='text']{
+    width: 520px;
+    height: 56px;
+    border: 2px solid var(--pink-color0);
+    border-radius: 36px;
+    background-color: transparent;
+    padding: 10px 0px;
+    margin: 30px 0;
+    display: block;
+    
+}
+::placeholder{
+    font-size: 15px;
+    color: var(--pink-color0);
+    padding-left: 30px;
+}
+#enigme .text-reponse{
+    padding-left: 20px;
+    font-size: 16px;
+    color: white;
+}
+#enigme .form input[type='submit']{
+    display: block;
+    margin: 80px 170px;
+    background-color: var(--pink-color0);
+    width: 174px;
+    height: 54px;
+    border-radius: 38px;
+    border: none;
+    
+}
+#enigme .form{
+    margin-top: 120px;
+}
+#enigme .form input[type='submit']:hover{
+    box-shadow: 0 0 20px #F2CEF2;
+}
+#enigme .droite p{
+    position: relative;
+    top: -320px;
+    color: white;
+    width: 50%;
+    margin-left: 140px;
+    font-family: 'Cantarell';
+    font-size: 14px;
+    text-align: center;
+}
+#enigme .droite{
+    margin-left: 200px;
+    top: -100px;
+    position: relative;
+}
+#enigme .savoir{
+    margin-bottom: 20px;
+}
+
+/*Style de la cinquième section footer*/
+#footer{
+    background-image: url(./Illustrations-Logo/All_pages/back_footer.png);
+}
+#footer .container{
+    display: flex;
+    padding-top: 150px;
+    margin-left: 350px;
+    padding-bottom: 70px;
+}
+#footer .petit{
+    position: relative;
+    top: -200px;
+    left: -250px
+}
+
+#footer .sociaux{
+    margin-left: 500px;
+    
+}
+#footer .sociaux a img {
+    margin-right: 30px; 
+}
+#footer .retrouvez{
+    margin-left: 540px;
+    color: white;
+    font-size: 22px;
+    letter-spacing: 28%;
+    margin-bottom: 30px;
+}
+#footer .copyright{
+    margin-top: 200px;
+    color: #FFFFFF;
+    font-family: 'Cantarell';
+    display: flex;
+}
+#footer .texte{
+    color: white;
+    text-transform: capitalize;
+}
+#footer .copyright ul li{
+    font-family: 'Cantarell';
+}
+#footer .puce::before {
+    content: '•'; /* Symbole de la puce */
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 40px; /* Taille de la puce */
+    line-height: 0.6; /* Assurez-vous que la puce est bien alignée avec le texte */
+    color: var(--pink-color0); /* Couleur de la puce */
+}
+#footer .puce {
+    position: relative;
+    padding-left: 10px; /* Espace pour la puce */
+}
+#footer .pages{
+    font-family: 'Cantarell';
+    font-size: 22px;
+    letter-spacing: 28%;
+    margin-bottom: 30px;
+}
+#footer .apropos{
+    font-family: 'Cantarell';
+    margin-bottom: 15px;
 }
