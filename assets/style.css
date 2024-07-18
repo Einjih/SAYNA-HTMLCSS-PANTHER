@@ -55,6 +55,14 @@ ul{
     font-size: 20px;
     text-decoration: none; /* Ajustez la taille des caractères selon vos besoins */
 }
+.type-menu ul li a:hover {
+    text-decoration: underline;
+}
+.type-menu ul li a.active {
+    text-decoration: underline;
+    text-decoration-color: var(--pink-color1);
+    color: var(--pink-color1);
+}
 nav ul a{
     color: var(--white-color);
     font-size: 30px;
@@ -65,6 +73,11 @@ nav ul a{
 ul{
     list-style-type: none;
 }
+
+ #menu .icon:hover{
+    filter: invert(92%) sepia(68%) saturate(6551%) hue-rotate(289deg) brightness(90%) contrast(123%);
+
+ }
 body{
 background-image: url(./Illustrations-Logo/All_pages/arrière_plan.png);
 background-size: cover;
@@ -417,9 +430,22 @@ background-size: cover;
     left: -10px;
     top: -30px;
     position: absolute;
+
 }
 .img-band img{
     margin-top: 10px;
+    transition: filter 0.3s ease;
     
 }
+.img-band img:hover  {
+    filter: brightness(0) invert(1); /* Inverser les couleurs pour obtenir du blanc */
+}
+
+#footer img:hover{
+    transform: scale(1.1);
+}
+#footer .petit:hover{
+    filter: invert(92%) sepia(68%) saturate(6551%) hue-rotate(289deg) brightness(90%) contrast(123%);
+
+ }
 

@@ -52,6 +52,18 @@ ul{
     font-size: 20px;
     text-decoration: none; /* Ajustez la taille des caractères selon vos besoins */
 }
+.type-menu ul li a:hover {
+    text-decoration: underline;
+}
+.type-menu ul li a.active {
+    text-decoration: underline;
+    text-decoration-color: var(--pink-color1);
+    color: var(--pink-color1);
+}
+#menu .icon:hover{
+    filter: invert(92%) sepia(68%) saturate(6551%) hue-rotate(289deg) brightness(90%) contrast(123%);
+
+ }
 nav ul a{
     color: var(--white-color);
     font-size: 30px;
@@ -272,3 +284,10 @@ body{
     font-family: 'Cantarell';
     margin-bottom: 15px;
 }
+#footer img:hover{
+    transform: scale(1.1);
+}
+#footer .petit:hover{
+    filter: invert(92%) sepia(68%) saturate(6551%) hue-rotate(289deg) brightness(90%) contrast(123%);
+
+ }

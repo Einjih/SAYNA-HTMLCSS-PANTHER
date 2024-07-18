@@ -52,6 +52,18 @@ ul{
     font-size: 20px;
     text-decoration: none; /* Ajustez la taille des caractères selon vos besoins */
 }
+.type-menu ul li a:hover {
+    text-decoration: underline;
+}
+.type-menu ul li a.active {
+    text-decoration: underline;
+    text-decoration-color: var(--pink-color1);
+    color: var(--pink-color1);
+}
+#menu .icon:hover{
+    filter: invert(92%) sepia(68%) saturate(6551%) hue-rotate(289deg) brightness(90%) contrast(123%);
+
+ }
 nav ul a{
     color: var(--white-color);
     font-size: 30px;
@@ -77,10 +89,10 @@ body{
 
 /*Style de la première section wakanda forever*/
 #forever {
-   background-image: url(./Illustrations-Logo/Wakanda/Pantherwakanda1.png);
+   background-image: url(./Illustrations-Logo/Wakanda/Panther1.jpg);
    background-size: cover;
    height: 1000px;
-   
+   opacity: 0.7;
 }
 #forever .container{
     position: relative;
@@ -109,8 +121,46 @@ body{
 }
 
 
+/*Style de la deuxième section histoire*/
+#histoire .opacity{
+    opacity: 0.3;
+    position: absolute;
+}
+#histoire .container{
+    display: flex;
+    margin-top: 150px;
 
+}
+#histoire .titre{
+    font-family: 'Beyno';
+    color: var(--pink-color1);
+    margin-bottom: 20px;
+}
+#histoire .description{
+    font-family: 'Cantarell';
+    color: white;
+    text-align: justify;
+    font-size: 14px;
+    width: 85%;
+    margin-bottom: 20px;
+}
+#histoire .citation{
+    font-family: 'Cantarell';
+    color: white;
+    text-align: justify;
+    font-size: 12px;
+    width: 85%;
+    margin-bottom: 20px;
+}
+#histoire .gauche{
+    width: 3000px;
 
+}
+#histoire .youtube{
+    position: relative;
+    top: -200px;
+    right: -270px;
+}
 
 
 
@@ -183,3 +233,10 @@ body{
     font-family: 'Cantarell';
     margin-bottom: 15px;
 }
+#footer img:hover{
+    transform: scale(1.1);
+}
+#footer .petit:hover{
+    filter: invert(92%) sepia(68%) saturate(6551%) hue-rotate(289deg) brightness(90%) contrast(123%);
+
+ }
