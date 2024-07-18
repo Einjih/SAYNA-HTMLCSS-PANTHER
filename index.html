@@ -9,21 +9,24 @@
 </head>
 <body>
     <header>
-        <div class="left-band">
+        <div class="entete">
+            <div class="left-band">
 
-        </div>
-        <div class="right-band">
-            <div class="img-band">
-                <img src="assets/Illustrations-Logo/All_pages/icon_facebook.png" alt="">
-                <img src="assets/Illustrations-Logo/All_pages/icon_instagram.png" alt="">
-                <img src="assets/Illustrations-Logo/All_pages/icon_twitter.png" alt="">
-                <img src="assets/Illustrations-Logo/All_pages/icon_tiktok.png" alt="">
             </div>
+            <div class="right-band">
+                <div class="img-band">
+                    <a href="http://www.marvel-cineverse.fr/pages/mcu/encyclopedie/personnages/black-panther.html"><img src="assets/Illustrations-Logo/All_pages/icon_facebook.png" alt=""></a>
+                    <a href="http://www.marvel-cineverse.fr/pages/mcu/encyclopedie/personnages/black-panther.html"><img src="assets/Illustrations-Logo/All_pages/icon_instagram.png" alt=""></a>
+                    <a href="http://www.marvel-cineverse.fr/pages/mcu/encyclopedie/personnages/black-panther.html"><img src="assets/Illustrations-Logo/All_pages/icon_twitter.png" alt=""></a>
+                    <a href="http://www.marvel-cineverse.fr/pages/mcu/encyclopedie/personnages/black-panther.html"><img src="assets/Illustrations-Logo/All_pages/icon_tiktok.png" alt=""></a>
+                </div>
+                    
                 
-            
-            
-               
+                
+                   
+            </div>
         </div>
+       
         <section id="menu">
             <div class="container">
                 <nav class="container">
@@ -61,7 +64,7 @@
                         <br>
                         
                         </p>
-                        <a href="" class="voir">Voir plus ></a>
+                        <a href="#" class="voir">Voir plus ></a>
                             
                     </div>
                     
@@ -88,7 +91,7 @@
                                 valu le surnom de Killmonger. D’origine Wakandaise,
                                 et se sentant abandoné par sa nation, il cherche à
                                 détroner T’Challa dans une quête vers le pourvoir.</p>
-                                <a href="" class="voir">Voir plus ></a>
+                                <a href="#" class="voir">Voir plus ></a>
                         </div>
                         <div class="acteur2">
                             <img src="assets/Illustrations-Logo/Accueil/Pantherhome3.png" alt="">
@@ -100,7 +103,7 @@
                                 des renseignements wakandais. Témoin du
                                 couronnement de T'Challa, elle se joint à lui dans de
                                 nombreuses aventures.</p>
-                                <a href="" class="voir">Voir plus ></a>
+                                <a href="#" class="voir">Voir plus ></a>
                         </div>
                         <div class="acteur2">
                             <img src="assets/Illustrations-Logo/Accueil/Pantherhome4.png" alt="">
@@ -263,7 +266,7 @@
                         <label class="email" for="email"></label>
                         <input type="email" name="email" placeholder="Email">
                         <textarea name="" id="" cols="30"  placeholder="Message"></textarea>
-                        <input  type="submit" value="ENVOYER">
+                        <input  type="submit" onclick="showPopup()" value="ENVOYER">
                      </form>
                 </div>
                
@@ -284,17 +287,18 @@
 </div>
 <div class="texte">
     <p class="pages">PAGES</p>
-    <p class="apropos">à propos</p>
-    <p class="wakanda">Wakanda</p>
+    <a href="enigme.html"><p class="apropos">à propos</p></a>
+    <a href="wakanda.html"><p class="wakanda">Wakanda</p></a>
+    
 </div>
 <div class="reseau">
     <p class="retrouvez">RETROUVEZ NOUS</p>
     <div class="sociaux">
         <a href="">
-            <img src="assets/Illustrations-Logo/All_pages/footer3.png" alt="">
-            <img src="assets/Illustrations-Logo/All_pages/footer4.png" alt="">
-            <img src="assets/Illustrations-Logo/All_pages/footer5.png" alt="">
-            <img src="assets/Illustrations-Logo/All_pages/footer6.png" alt="">
+           <a href="http://www.marvel-cineverse.fr/pages/mcu/encyclopedie/personnages/black-panther.html"><img src="assets/Illustrations-Logo/All_pages/footer3.png" alt=""></a> 
+            <a href="http://www.marvel-cineverse.fr/pages/mcu/encyclopedie/personnages/black-panther.html"><img src="assets/Illustrations-Logo/All_pages/footer4.png" alt=""></a>
+            <a href="http://www.marvel-cineverse.fr/pages/mcu/encyclopedie/personnages/black-panther.html"><img src="assets/Illustrations-Logo/All_pages/footer5.png" alt=""></a>
+            <a href="http://www.marvel-cineverse.fr/pages/mcu/encyclopedie/personnages/black-panther.html"><img src="assets/Illustrations-Logo/All_pages/footer6.png" alt=""></a>
         </a>
     </div>
     <div class="copyright">
@@ -322,5 +326,22 @@
                 reset: true // Réinitialiser l'animation à chaque fois qu'elle devient visible
             });
         </script>
+         <script>
+            // JavaScript pour synchroniser le scroll des éléments
+            window.addEventListener('scroll', function() {
+                var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                
+                // Déplacement des icônes de réseaux sociaux
+                var socialIcons = document.querySelector('.entete');
+                socialIcons.style.transform = 'translateY(' + scrollTop + 'px)';
+                
+                
+            });
+        </script>
+        <script>
+            function showPopup() {
+                alert("L'opération a été effectuée");
+            }
+            </script>
 </body>
 </html>

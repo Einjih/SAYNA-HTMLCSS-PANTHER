@@ -291,3 +291,11 @@ body{
     filter: invert(92%) sepia(68%) saturate(6551%) hue-rotate(289deg) brightness(90%) contrast(123%);
 
  }
+ #footer .texte a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Cantarell';
+}
+#footer .texte a:hover {
+    text-decoration: underline;
+}
